@@ -86,7 +86,7 @@ const App = (props) => {
     <div className="todoapp stack-large">
       <h1>Todo Matic</h1>
       <Form addTask={addTask} />
-      <div className="filters btn-group stack-exeption">
+      <div className="filters btn-group">
         {filterList}
       </div>
 
